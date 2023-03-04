@@ -6,3 +6,5 @@ print(type(range(5))) """
 a=[1,2,3,4]
 b=[4,5,6]
 print(*zip(a,b))
+
+
