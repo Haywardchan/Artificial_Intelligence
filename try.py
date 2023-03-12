@@ -1,11 +1,11 @@
-import sys
-print(sys.version)#3.9.5
-""" a=r'Hi\nhehi'
-print(a.decode('utf-8'))
-print(type(range(5))) """
-a=[1,2,3,4]
-b=[4,5,6]
-print(*zip(a,b))
+# import sys
+# print(sys.version)#3.9.5
+# """ a=r'Hi\nhehi'
+# print(a.decode('utf-8'))
+# print(type(range(5))) """
+# a=[1,2,3,4]
+# b=[4,5,6]
+# print(*zip(a,b))
 
 
 
@@ -26,6 +26,8 @@ print(*zip(a,b))
   #   # TODO
   #   # return k_nearest_neighbor_labels # shape: (num_test_samples, self.k)
   #   dist=self.compute_Minkowski_distance(test_dataset)
-    sort=np.argsort(dist,axis=1)
-    labels=np.take(train_labels,sort[:,:self.k])
+    # sort=np.argsort(dist,axis=1)
+    # labels=np.take(train_labels,sort[:,:self.k])
   #   return labels
+
+import sklearn
