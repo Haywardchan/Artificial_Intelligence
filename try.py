@@ -30,6 +30,5 @@
     # labels=np.take(train_labels,sort[:,:self.k])
   #   return labels
 
-import sklearn
-
+# import sklearn
 
